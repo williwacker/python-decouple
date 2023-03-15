@@ -203,8 +203,8 @@ class AutoConfig(object):
 
     """
     SUPPORTED = OrderedDict([
-        ('settings.ini', RepositoryIni),
         ('settings.common.ini', RepositoryIni),
+        ('settings.ini', RepositoryIni),
         ('.env', RepositoryEnv),
     ])
 
